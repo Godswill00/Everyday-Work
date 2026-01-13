@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
-    background-color: rgb(16, 176, 16);
+    background-color: rgb(51, 173, 234);
     align-items: center;
     height: 150px;
     flex-wrap: wrap; 
@@ -29,7 +29,7 @@ body{
 
 }
 .navbarText strong{
-    color: aqua;
+    color: rgb(101, 237, 237);
 }
 .navbarLi ul {
     display: flex;
@@ -62,7 +62,7 @@ body{
     overflow-wrap: break-word; 
 }
 .space h1{
-    color: rgb(16, 176, 16);
+    color: rgb(51, 173, 234);
 }
 /* ------------------------------section 3------------------------------------- */
 .secondCon{
@@ -255,54 +255,64 @@ body{
     align-items: center;
     justify-content: center;
 }
-
-/* 
-.image-wrapper {
-    width: 100%;
+.card{
     display: flex;
     flex-direction: column;
+    width: 100%;
     align-items: center;
-    margin-top: -100px;
-    z-index: 10;
+    justify-content: center;
 }
-
-.floating-images {
+.card-container{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    justify-content: center; 
-    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
 }
-
-.floating-images img {
-    height: 250px;
-    width: 250px; 
-    object-fit: cover;
-    border-radius: 15px;
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.2);
-}
-
-.slider-controls {
-    display: flex;
-    justify-content: center; 
-    gap: 15px; 
-}
-
-.nav-btn {
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
+.card-container button{
+    padding: 7px 30px;
+    border-radius: 10px;
     border: none;
     background-color: rgb(51, 173, 234);
     color: white;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.3s ease;
+}
+.card-container button:hover{
+    transform: scale(1.1);
+}
+.card-text1{
+    color: rgb(51, 173, 234);
+    font-size: smaller;
+}
+.card-text2{
+    font-size: 20px;
+}
+.card-container span{
+    color: rgb(51, 173, 234);  
 }
 
-.nav-btn:hover {
-    background-color: #008cc7;
-    transform: scale(1.1);
+/* .card-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-image{
+    display: flex;
+    flex-direction: row;
+}
+.card-image img{
+    height: 20px;
+}
+.card-header img{
+    height: 90px;
+}
+.card-align{
+    display: flex;
+    flex-direction: column;
+}
+.card-text3{
+    display: flex;
+    flex-direction: row;
+}
+.card-arrange{
 } */
