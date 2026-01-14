@@ -289,30 +289,202 @@ body{
 .card-container span{
     color: rgb(51, 173, 234);  
 }
-
-/* .card-content{
+.card-content{
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 100%;
+    justify-content: center;
+    gap: 40px;
 }
-
-.card-image{
-    display: flex;
-    flex-direction: row;
-}
-.card-image img{
-    height: 20px;
-}
-.card-header img{
-    height: 90px;
-}
-.card-align{
+.card-fix{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+
 }
-.card-text3{
+.card-align h3{
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.card-placement p{
+    font-size: 10px;
+    color: rgba(38, 40, 40, 0.501);
+}
+.card-placement button{
+    padding: 1px;
+    font-size: 9px;
+    border-radius: 4px;
+    border: none;
+    color: rgb(51, 173, 234);
+}
+.card-iv{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
-.card-arrange{
-} */
+.card-placement{
+    display: flex;
+    gap: 5px;
+}
+.icon{
+    height: 20px;
+    width: 40px;
+    object-fit: contain;
+    border: 2px solid  rgba(0, 0, 0, 0.08);
+    padding: 7px;
+    background-color: rgba(158, 158, 155, 0.149);
+    border-radius: 10px;
+}
+.icon2{
+    height: 130px;
+    width: 190px;
+    padding: 10px 0;
+    object-fit: cover;
+    border-radius: 25px;
+
+}
+.button-primary{
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 2px solid rgb(51, 173, 234);
+    color: rgb(51, 173, 234);
+    background-color: white;
+}
+
+/* ------------------------------------section 5----------------------------------------------------- */
+.previous{
+    margin: 100px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(212, 232, 242);
+    padding: 70px 0 0;
+    height: 500px;
+    
+}
+.previoust{
+    font-size: 12px;
+    color: rgb(51, 173, 234);
+}
+.previous h1{
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
+.previous span{
+    color: rgb(51, 173, 234);
+}
+.previous-img{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.previous-align img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.previous-align{
+    height: 250px;
+    background-color: white;
+    margin-bottom: 30px;
+} 
+.previous-position{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    justify-content: space-between;
+    color: black;
+    font-size: 12px;
+}
+.previous button{
+    padding: 5px 30px;
+    border-radius: 10px;
+    color: rgb(51, 173, 234);
+    border: 2px solid rgb(51, 173, 234);
+    background-color: white;
+}
+/* -----------------------------------------------section 6------------------------------------------------- */
+.plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 170px 100px;
+}
+.plan1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+
+}
+.plan h1{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.plan span{
+    color: rgb(51, 173, 234);
+}
+.plan2 img{
+    height: 150px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.plan2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    border-radius: 10px;
+}
+.edit{
+    font-weight: bold;
+    font-size: 15px;
+}
+.line{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);;
+    width: 200px;
+    margin: 8px 0;
+}
+
+.previouss{
+    font-size: 12px;  
+}
+.money{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 0;
+    color: rgb(51, 173, 234);
+}
+.plan2 button{
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(51, 173, 234);
+    color: rgb(51, 173, 234);
+    background-color: white;
+}
+.plan3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.plan3 button{
+    padding: 15px 150px;
+    border: none;
+    background-color: rgb(51, 173, 234);
+    color: white;
+    font-size: 10px;
+}
+.plan3 span{
+    font-weight: bold;
+}
