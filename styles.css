@@ -450,7 +450,7 @@ body{
     font-size: 15px;
 }
 .line{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
     width: 200px;
     margin: 8px 0;
 }
@@ -479,7 +479,7 @@ body{
     margin-bottom: 20px;
 }
 .plan3 button{
-    padding: 15px 150px;
+    padding: 15px 20%;
     border: none;
     background-color: rgb(51, 173, 234);
     color: white;
@@ -487,4 +487,35 @@ body{
 }
 .plan3 span{
     font-weight: bold;
+}
+
+/* --------------------------------------------------------section 7----------------------------------------------- */
+.reference{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 20px 170px 100px;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    padding: 30px;
+    background-color:rgb(237, 238, 238);
+    border-radius: 10px;
+}
+.reference h1{
+    color: rgb(33, 125, 33);   
+    font-size: 30px;
+    padding-bottom: 15px; 
+}
+.reference span{
+    font-size: 20px;
+}
+.reference p{
+    padding-bottom: 15px;
+}
+.tgs{
+    font-weight: bold;
+}
+.tgs a{
+    text-decoration: none;
+    color: rgb(21, 148, 211);
+    font-weight: lighter;
 }
