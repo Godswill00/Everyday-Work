@@ -508,14 +508,196 @@ body{
 .reference span{
     font-size: 20px;
 }
-.reference p{
+/* .reference p{
     padding-bottom: 15px;
-}
+} */
 .tgs{
     font-weight: bold;
+    padding-bottom: 15px;
 }
 .tgs a{
     text-decoration: none;
     color: rgb(21, 148, 211);
     font-weight: lighter;
+}
+.color{
+    padding-bottom: 15px;
+}
+.color span{
+    color: rgb(21, 148, 211);
+    font-size: 20px;
+}
+.reference-body{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.reference-links{
+    padding: 5px 40px;
+    background-color: rgb(17, 149, 61);
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.fa-whatsapp{
+    color: white;
+    padding-right: 30px;
+}
+.reference-links:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-lanks{
+    padding: 5px 40px;
+    background-color: rgb(18, 96, 198);
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+   
+}
+.fa-telegram{
+    color: white;
+    padding-right: 30px;
+}
+.reference-lanks:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-lenks{
+    padding: 5px 40px;
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #FCAF45);
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+
+}
+.fa-instagram{
+    color: white;
+    padding-right: 30px;
+
+}.reference-lenks:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-lonks{
+    padding: 5px 40px;
+    background-color: rgb(69, 138, 228);
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.fa-facebook{
+    color: white;
+        padding-right: 30px;
+
+}
+.reference-lonks:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-lunks{
+    padding: 5px 40px;
+    background-color: rgb(14, 59, 118);
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+
+}
+.fa-linkedin{
+    color: white;
+    padding-right: 30px;
+
+}
+.reference-lunks:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-ljnks{
+    padding: 5px 40px;
+    background-color: rgb(27, 115, 230);
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.fa-twitter{
+    color: white;
+    padding-right: 30px;
+
+}
+.reference-ljnks:hover{
+    transform: scaleY(1.1);
+    transition: ease;
+    margin-bottom: 10px;
+    
+}
+.reference-foot{
+    display: flex;
+    flex-direction: column;
+}
+.reference-footer{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 15px;
+    gap: 20px;
+}
+.reference-button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.reference-button button{
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+}
+.reference-button a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+.green{
+    background: linear-gradient(#274, #3A6);
+}
+.green:hover{
+    background: linear-gradient(#3A6, #274);
+}
+.blue{
+    background: linear-gradient(rgba(0, 0, 255, 0.977),rgb(98, 131, 185));
+}
+.blue:hover{
+        background: linear-gradient(rgb(98, 131, 185), rgba(0, 0, 255, 0.977));
+
+}
+.ash{
+    background: linear-gradient(gray,rgb(185, 184, 184));
+}
+.ash:hover{
+    background: linear-gradient(rgb(185, 184, 184),gray);
 }
