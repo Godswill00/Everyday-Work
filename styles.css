@@ -388,11 +388,13 @@ body{
     height: 200px;
     width: 300px;
     object-fit: cover;
+    border-radius: 10px 10px 0 0;
 }
 .previous-align{
     height: 250px;
     background-color: white;
     margin-bottom: 30px;
+    border-radius: 10px;
 } 
 .previous-position{
     display: flex;
@@ -606,7 +608,7 @@ body{
 }
 .fa-facebook{
     color: white;
-        padding-right: 30px;
+    padding-right: 30px;
 
 }
 .reference-lonks:hover{
@@ -700,4 +702,47 @@ body{
 }
 .ash:hover{
     background: linear-gradient(rgb(185, 184, 184),gray);
+}
+
+/* --------------------------------section 8--------------------------------------------------------- */
+.websites{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 200px 170px 100px;
+}
+.web{
+    color: rgb(33, 125, 33);   
+    font-size: 30px;
+    padding-bottom: 25px; 
+}
+
+.web-allign{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0 30px;
+
+}
+.web-img{
+    /* padding: 10px 0 30px; */
+    height: 430px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    margin-bottom: 40px;
+    padding: 10px 30px;
+    /* background-color: rgba(231, 239, 239, 0.411); */
+    border-radius: 10px 0 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.web-img img{
+    height: 200px;
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
