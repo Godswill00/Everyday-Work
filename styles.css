@@ -45,7 +45,17 @@ body{
 .navbarLi button{
     padding: 12px 23px;
 }
-
+.navbarLi button:hover{
+    /* text-decoration: underline; */
+    color: #FD1D1D;
+    background: linear-gradient(rgb(237, 236, 236),rgb(221, 219, 219));
+}
+@media (max-width: 600px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* --------------------------------------section 2----------------------------------- */
 
 .space{
@@ -507,6 +517,10 @@ body{
     font-size: 30px;
     padding-bottom: 15px; 
 }
+.reference h1:hover{
+    text-decoration: underline;
+    text-decoration-color: #FD1D1D;
+}
 .reference span{
     font-size: 20px;
 }
@@ -521,6 +535,10 @@ body{
     text-decoration: none;
     color: rgb(21, 148, 211);
     font-weight: lighter;
+}
+.tgs a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FD1D1D;
 }
 .color{
     padding-bottom: 15px;
@@ -553,7 +571,7 @@ body{
 }
 .reference-links:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -573,7 +591,7 @@ body{
 }
 .reference-lanks:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -593,7 +611,7 @@ body{
 
 }.reference-lenks:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -613,7 +631,7 @@ body{
 }
 .reference-lonks:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -634,7 +652,7 @@ body{
 }
 .reference-lunks:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -654,7 +672,7 @@ body{
 }
 .reference-ljnks:hover{
     transform: scaleY(1.1);
-    transition: ease;
+    transition: 0.5s;
     margin-bottom: 10px;
     
 }
@@ -709,7 +727,7 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    margin: 200px 170px 100px;
+    margin: 200px 170px 0;
 }
 .web{
     color: rgb(33, 125, 33);   
@@ -722,7 +740,7 @@ body{
     grid-template-columns: 300px 300px 300px;
     width: 100%;
     justify-content: space-between;
-    padding: 10px 0 30px;
+    padding: 10px 0 0px;
 
 }
 .web-img{
@@ -735,14 +753,41 @@ body{
     border: 2px solid rgba(0, 0, 0, 0.08);
     margin-bottom: 40px;
     padding: 10px 30px;
-    /* background-color: rgba(231, 239, 239, 0.411); */
-    border-radius: 10px 0 20px 0;
-    background-color: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: rgb(241, 239, 239);
+    border-radius: 5% 0 5% 0;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 .web-img img{
     height: 200px;
     width: 300px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+    border-radius: 5%;
+}
+.web-img h1{
+    padding: 15px 0;
+    font-size: 20px;
+    color: rgb(43, 145, 197);
+}
+.web-img p{
+    font-size: 110%;
+    line-height: 150%;
+}
+/* ------------------------------------------section 9--------------------------------------------------------- */
+.full-width-footer{
+   width: 100%;
+   background: rgb(51, 173, 274); 
+   padding: 20px 0;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+.footer-content{
+    color: white;
+}
+.footer-content a{
+    color: white;
+    text-decoration: none;
+}
+.footer-content a:hover{
+    text-decoration: underline;
 }
