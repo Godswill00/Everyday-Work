@@ -8,6 +8,8 @@ body{
     font-family: 'PolySans', sans-serif;
     letter-spacing: -0.02em;
     cursor: pointer;
+    overflow-x: hidden;
+
     
 }
 .navbar{
@@ -50,12 +52,7 @@ body{
     color: #FD1D1D;
     background: linear-gradient(rgb(237, 236, 236),rgb(221, 219, 219));
 }
-@media (max-width: 600px){
-    body{
-        display: flex;
-        flex-direction: column;
-    }
-}
+
 /* --------------------------------------section 2----------------------------------- */
 
 .space{
@@ -790,4 +787,26 @@ body{
 }
 .footer-content a:hover{
     text-decoration: underline;
+}
+
+
+@media (max-width: 768px){
+    body{
+       width: 100%;
+       max-width: 1200px;
+       margin: 0 auto;
+       overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .secondCon{
+        display: flex;
+        flex-direction: column;
+    }
+    .space{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
 }
