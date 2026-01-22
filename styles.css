@@ -1,6 +1,7 @@
 *{
    margin: 0;
    padding: 0;
+   /* box-sizing: border-box; */
 }
 body{
     display: flex;
@@ -15,16 +16,18 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 20px 30px 15px 0;
     background-color: rgb(51, 173, 234);
     align-items: center;
     height: 150px;
     flex-wrap: wrap; 
     height: auto;
+    width: 100%;
 }
 
 .navbarText{
     color: aliceblue;
+    padding-left: 40px;
 }
 .navbarText h1{
     font-size: 60px;
@@ -33,9 +36,12 @@ body{
 .navbarText strong{
     color: rgb(101, 237, 237);
 }
+.navbarLi{
+    padding-right: 30px;
+}
 .navbarLi ul {
     display: flex;
-    gap: 15px;
+    gap: 10px;
     padding: 50px 0 0 10px;
     flex-wrap: wrap;
 }
@@ -69,7 +75,7 @@ body{
     overflow-wrap: break-word; 
 }
 .space h1{
-    color: rgb(51, 173, 234);
+    color: rgb(29, 163, 29);
 }
 /* ------------------------------section 3------------------------------------- */
 .secondCon{
@@ -137,10 +143,10 @@ body{
 .box{
     margin-top: 30px;
     display: flex;
-    gap: 200px;
-    padding: 0 200px;
+    gap: 15%;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .box-text img{
     height: 20px;
@@ -799,13 +805,69 @@ body{
     }
     .navbar{
         width: 100%;
+    
+    }
+    .navbarText{
+        font-size: large;
+    }
+    .navbarText h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 15px 0; 
+    }
+    .navbarLi ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .space{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .space h1{
+        font-size: 25px;
+    }
+    .pa1{
+        font-size: 20px;
+        width: 100%;
+        line-height: 1cm;
+        text-align: justify;
     }
     .secondCon{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    .space{
-        text-align: center;
+     .box{
+        display: flex;
+        /* flex-direction: column; */
+        width: 100%;
+    }
+    .box-text{
+        font-size: 14px;
+    }
+     .box-list{
+        font-size: 14px;
+    }
+    .imgAllign{
+        display: flex;
+        flex-direction: column;
+    }
+    .position{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .textAlign button{
+        padding: 20px 50px;
+    }
+   
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-wrapper{
         display: flex;
         flex-direction: column;
     }
