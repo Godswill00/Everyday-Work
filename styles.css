@@ -858,6 +858,7 @@ body{
     .position{
         display: grid;
         grid-template-columns: 1fr;
+        line-height: 10px;
     }
     .textAlign button{
         padding: 20px 50px;
