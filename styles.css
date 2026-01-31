@@ -929,7 +929,7 @@ body{
    }
     .card-text2{
         font-size: 15px;
-        font-style: calc(1.blue);
+        font-style: normal;
    }
    .card-content{
         display: flex;
