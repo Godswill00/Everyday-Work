@@ -934,10 +934,11 @@ body{
    .card-content{
         display: flex;
         gap: 6px;
+        margin-top: 20px;
    }
    .card-fix{
         padding: 10px;
-        margin: 20px;
+        
    }
    .card-iv img{
 
